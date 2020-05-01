@@ -2,6 +2,8 @@ atualizar='\033[1;32m'
 echo "Atualizando repositório..."
 apt update && clear && apt  upgrade -y
 clear
+pkg install php
+clear
 apt install -y wget
 clear
 pkg install figlet
