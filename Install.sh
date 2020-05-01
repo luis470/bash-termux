@@ -35,5 +35,5 @@ cd .. && cd usr && cd etc
 rm bash.bashrc
 wget https://github.com/luis470/bash-termux/blob/master/bash.bashrc
 cd
-pkg install mano
+pkg install nano
 sh install.sh
